@@ -339,15 +339,17 @@ var dangerSettings = {
     'measures': {
         'systolic_blood_pressure':{
             'chart':{
-                'styles': {
-                    'name': 'danger',
-                    'plotType': 'Scatter',
-                    'filters': [ dangerFilter ],
-                    'attributes': {
-                        'fill': 'red'
-                        'stroke': 'red'
+                'styles': [
+                    {
+                        'name': 'danger',
+                        'plotType': 'Scatter',
+                        'filters': [ dangerFilter ],
+                        'attributes': {
+                            'fill': 'red'
+                            'stroke': 'red'
+                        }
                     }
-                }
+                ]
             }
         }
     }
